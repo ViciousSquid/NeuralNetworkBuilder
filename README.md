@@ -1,6 +1,7 @@
 # NeuralNetworkBuilder
 
 * Construct neural network architectures neuron by neuron, connect them, and observe their behavior in real-time.
+* Load and save as json files
 * Support for dynamic, adaptive neural processes.
 * Mltiple learning paradigms including unsupervised Hebbian learning, supervised backpropagation, neurogenesis.
 * A suite of examples ranging from classic logic problems to game AI and real-time webcam analysis.
