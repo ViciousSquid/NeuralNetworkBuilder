@@ -5,7 +5,10 @@ The implementation of Hebbian learning follows the principle "neurons that fire 
   
 ### Trigger Mechanism:
 * Manual Trigger: The "Perform Hebbian Learning" button in the GUI allows the user to force a learning cycle at any moment.
-* Automatic Interval: The perform_learning method is also designed to be triggered automatically. It checks the time elapsed since its last execution and runs if the time exceeds the "Hebbian Interval" set in the UI's "Learning Parameters" section. This creates a continuous, unsupervised learning process in the background without needing a visible countdown.
+* Automatic Interval: The perform_learning method is also designed to be triggered automatically.
+
+  
+It checks the time elapsed since its last execution and runs if the time exceeds the "Hebbian Interval" set in the UI's "Learning Parameters" section. This creates a continuous, unsupervised learning process in the background without needing a visible countdown.
 
 -----------------------------------
 
@@ -20,7 +23,10 @@ The system is designed to be driven by a larger, hypothetical simulation that wo
 * SIM_novelty_exposure: Represents the network being exposed to a new, unfamiliar stimulus.
 * SIM_sustained_stress: Represents a prolonged period of adverse conditions.
 * SIM_recent_rewards: Represents positive feedback or achieving a goal.
+  
+  
 The check_neurogenesis function evaluates the values of these variables against configurable thresholds. If a threshold is crossed (e.g., if SIM_novelty_exposure is very high), a new neuron is created, typically of a corresponding type like "novelty" or "stress".
+
 
 The "Trigger Neurogenesis" button in the GUI serves as a debugging tool to demonstrate this. When clicked, it simulates this external trigger by temporarily creating a sim_state_for_neuro dictionary with a high novelty value, thereby forcing a neurogenesis event for demonstration.
 
