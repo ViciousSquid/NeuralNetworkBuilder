@@ -5,7 +5,7 @@
 * Construct neural network architectures neuron by neuron, connect them, and observe their behavior in real-time.
 * Load and save as json files
 * Support for dynamic, adaptive neural processes.
-* Multiple learning paradigms including unsupervised Hebbian learning, supervised backpropagation, neurogenesis.
+* Multiple learning paradigms: unsupervised Hebbian learning, supervised backpropagation, neurogenesis.
 * Includes a suite of examples from classic logic problems to game AI and real-time webcam analysis.
 * This code was used for the basis of the Dosidicus digital-pet brain:  https://github.com/ViciousSquid/Dosidicus
 
