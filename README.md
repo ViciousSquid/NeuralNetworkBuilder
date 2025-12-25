@@ -2,7 +2,6 @@
 
 `requires PyQT5`
 
-* Construct neural network architectures neuron by neuron, connect them, and observe their behavior in real-time.
 * Load and save as json files
 * Support for dynamic, adaptive neural processes.
 * Multiple learning paradigms: unsupervised Hebbian learning, supervised backpropagation, neurogenesis.
