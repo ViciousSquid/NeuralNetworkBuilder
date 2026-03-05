@@ -1,5 +1,7 @@
 # NeuralNetworkBuilder
 
+### A symbolic, object-oriented neural graph engine.
+
 `requires PyQT5`
 
 * Load and save as json files
