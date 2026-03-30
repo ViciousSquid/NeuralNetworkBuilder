@@ -3,7 +3,6 @@ import sys
 import random
 import matplotlib.pyplot as plt 
 
-# Corrected path manipulation
 grandparent_dir = os.path.dirname(os.path.abspath(__file__))
 if grandparent_dir not in sys.path:
     sys.path.insert(0, grandparent_dir)
@@ -16,7 +15,7 @@ def main():
     
     config = Config()
     config.hebbian['learning_interval'] = float('inf') 
-    network = Network()  # Fixed: Instantiated Network properly
+    network = Network() 
     network.set_neurogenesis_enabled(False)
     
     # Define network structure
